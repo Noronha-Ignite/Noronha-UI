@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, BoxProps, Text } from '@noronha-ui/react'
 
 export default {
-  title: 'Box',
+  title: 'Surfaces/Box',
   component: Box,
   args: {
     children: (
