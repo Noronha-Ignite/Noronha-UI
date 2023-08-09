@@ -9,6 +9,13 @@ const config = {
   },
   docs: {
     autodocs: "tag"
+  },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/Noronha-UI/'
+    }
+
+    return config
   }
 };
 export default config;
