@@ -30,3 +30,5 @@ export const Tooltip = ({
     </RadTooltip.TooltipProvider>
   )
 }
+
+Tooltip.displayName = 'Tooltip'
